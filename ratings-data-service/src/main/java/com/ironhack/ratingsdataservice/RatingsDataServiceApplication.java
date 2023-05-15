@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Bean;
 import java.util.ArrayList;
 
 @SpringBootApplication
-@EnableEurekaClient
+//@EnableEurekaClient	NOT NECESSARY
 public class RatingsDataServiceApplication {
 
 	public static void main(String[] args) {
